@@ -1,0 +1,35 @@
+***********************************************************
+* PROGRAMMED BY : Mario Rodriguez
+* STUDENT ID    : 1028268
+* CLASS         : CS1B –-> MWF - 8am
+* ASSIGNMENT #6 : Saddleback Bank
+***********************************************************
+
+TRANSACTION        DATE         ACCT #  ACCT NAME                  AMOUNT          BALANCE    FROM ACCT#   FROM ACCT BAL
+-----------        ----------   -----   --------------------   ----------   --------------    ----------   -------------
+OPEN CHECKING      4/1/2012     2323     Jennifer Kim          $    50.00   $        50.00
+OPEN SAVINGS       4/1/2012     1212     Nery Chapeton Lamas   $   300.00   $       300.00
+OPEN Money Market  4/1/2012     3434     Shannon Alfaro        $   100.00   $       100.00
+Deposit            5/1/2012     1212     Nery Chapeton Lamas   $   100.00   $       100.00
+Deposit            5/1/2012     2323     Jennifer Kim          $   100.00   $       150.00
+Deposit            5/1/2012     3434     Shannon Alfaro        $   100.00   $       100.03
+Withdrawal         6/1/2012     1212     Nery Chapeton Lamas   $   200.00   $        10.00
+Withdrawal         6/1/2012     2323     Jennifer Kim          $   200.00   $       -70.00
+Withdrawal         6/1/2012     3434     Shannon Alfaro        $    50.00   $        20.01
+
+*** TRANSFER FROM 2323 TO 1212 NOT ALLOWED! ***
+***        DUE TO INSUFFICIENT FUNDS        ***
+
+
+*** TRANSFER FROM 3434 TO 2323 NOT ALLOWED! ***
+***        DUE TO INSUFFICIENT FUNDS        ***
+
+
+*** TRANSFER FROM 1212 TO 3434 NOT ALLOWED! ***
+***        DUE TO INSUFFICIENT FUNDS        ***
+
+Deposit            9/1/2012     1212     Nery Chapeton Lamas   $   100.00   $       100.01
+Deposit            9/1/2012     2323     Jennifer Kim          $   100.00   $       -10.00
+Deposit            9/1/2012     3434     Shannon Alfaro        $   100.00   $       100.16
+
+**** ERROR CAN'T TRANSFER INTO THE SAME ACCOUNT ****
